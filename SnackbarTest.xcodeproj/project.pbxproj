@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140AB0A36C8100D09F2EEFB4 /* Pods_SnackbarTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214B72F13F91F46BABEE8503 /* Pods_SnackbarTestTests.framework */; };
+		265D01B2242441D9000B4293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D01B1242441D9000B4293 /* AppDelegate.swift */; };
+		265D01B4242441D9000B4293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D01B3242441D9000B4293 /* SceneDelegate.swift */; };
+		265D01B6242441D9000B4293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D01B5242441D9000B4293 /* ViewController.swift */; };
+		265D01B9242441D9000B4293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265D01B7242441D9000B4293 /* Main.storyboard */; };
+		265D01BB242441DA000B4293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265D01BA242441DA000B4293 /* Assets.xcassets */; };
+		265D01BE242441DA000B4293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265D01BC242441DA000B4293 /* LaunchScreen.storyboard */; };
+		265D01C9242441DA000B4293 /* SnackbarTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D01C8242441DA000B4293 /* SnackbarTestTests.swift */; };
+		265D01D4242441DA000B4293 /* SnackbarTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D01D3242441DA000B4293 /* SnackbarTestUITests.swift */; };
+		31AD176C9288DEFC19AC7607 /* Pods_SnackbarTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9905DC07A4FDE7A6C098F06A /* Pods_SnackbarTestUITests.framework */; };
+		9D68A621FD8FEA157A5D60FC /* Pods_SnackbarTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7108A5495FBCAA9DF8360B10 /* Pods_SnackbarTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		265D01C5242441DA000B4293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265D01A6242441D9000B4293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265D01AD242441D9000B4293;
+			remoteInfo = SnackbarTest;
+		};
+		265D01D0242441DA000B4293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265D01A6242441D9000B4293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265D01AD242441D9000B4293;
+			remoteInfo = SnackbarTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D74750718FE5C048ACCF91E /* Pods-SnackbarTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackbarTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-SnackbarTestUITests/Pods-SnackbarTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		214B72F13F91F46BABEE8503 /* Pods_SnackbarTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackbarTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		265D01AE242441D9000B4293 /* SnackbarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackbarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		265D01B1242441D9000B4293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		265D01B3242441D9000B4293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		265D01B5242441D9000B4293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		265D01B8242441D9000B4293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		265D01BA242441DA000B4293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		265D01BD242441DA000B4293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		265D01BF242441DA000B4293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265D01C4242441DA000B4293 /* SnackbarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackbarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265D01C8242441DA000B4293 /* SnackbarTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarTestTests.swift; sourceTree = "<group>"; };
+		265D01CA242441DA000B4293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265D01CF242441DA000B4293 /* SnackbarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackbarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265D01D3242441DA000B4293 /* SnackbarTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarTestUITests.swift; sourceTree = "<group>"; };
+		265D01D5242441DA000B4293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7108A5495FBCAA9DF8360B10 /* Pods_SnackbarTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackbarTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AF2C97FA60C24B978FA32D /* Pods-SnackbarTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackbarTest.release.xcconfig"; path = "Target Support Files/Pods-SnackbarTest/Pods-SnackbarTest.release.xcconfig"; sourceTree = "<group>"; };
+		7B41B922846999D8DCD6FED1 /* Pods-SnackbarTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackbarTest.debug.xcconfig"; path = "Target Support Files/Pods-SnackbarTest/Pods-SnackbarTest.debug.xcconfig"; sourceTree = "<group>"; };
+		92EEC3B9D3937072BAAF6DA4 /* Pods-SnackbarTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackbarTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SnackbarTestTests/Pods-SnackbarTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9905DC07A4FDE7A6C098F06A /* Pods_SnackbarTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackbarTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD83C3A3B00AA3583DE0973 /* Pods-SnackbarTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackbarTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SnackbarTestUITests/Pods-SnackbarTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F35AF9D448A2D95E41E8EF67 /* Pods-SnackbarTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackbarTestTests.release.xcconfig"; path = "Target Support Files/Pods-SnackbarTestTests/Pods-SnackbarTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265D01AB242441D9000B4293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D68A621FD8FEA157A5D60FC /* Pods_SnackbarTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265D01C1242441DA000B4293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140AB0A36C8100D09F2EEFB4 /* Pods_SnackbarTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265D01CC242441DA000B4293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AD176C9288DEFC19AC7607 /* Pods_SnackbarTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265D01A5242441D9000B4293 = {
+			isa = PBXGroup;
+			children = (
+				265D01B0242441D9000B4293 /* SnackbarTest */,
+				265D01C7242441DA000B4293 /* SnackbarTestTests */,
+				265D01D2242441DA000B4293 /* SnackbarTestUITests */,
+				265D01AF242441D9000B4293 /* Products */,
+				3D4E8E29F47FEEDD785ECF99 /* Pods */,
+				5CF47183F0D87B51649C4179 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		265D01AF242441D9000B4293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265D01AE242441D9000B4293 /* SnackbarTest.app */,
+				265D01C4242441DA000B4293 /* SnackbarTestTests.xctest */,
+				265D01CF242441DA000B4293 /* SnackbarTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265D01B0242441D9000B4293 /* SnackbarTest */ = {
+			isa = PBXGroup;
+			children = (
+				265D01B1242441D9000B4293 /* AppDelegate.swift */,
+				265D01B3242441D9000B4293 /* SceneDelegate.swift */,
+				265D01B5242441D9000B4293 /* ViewController.swift */,
+				265D01B7242441D9000B4293 /* Main.storyboard */,
+				265D01BA242441DA000B4293 /* Assets.xcassets */,
+				265D01BC242441DA000B4293 /* LaunchScreen.storyboard */,
+				265D01BF242441DA000B4293 /* Info.plist */,
+			);
+			path = SnackbarTest;
+			sourceTree = "<group>";
+		};
+		265D01C7242441DA000B4293 /* SnackbarTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				265D01C8242441DA000B4293 /* SnackbarTestTests.swift */,
+				265D01CA242441DA000B4293 /* Info.plist */,
+			);
+			path = SnackbarTestTests;
+			sourceTree = "<group>";
+		};
+		265D01D2242441DA000B4293 /* SnackbarTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				265D01D3242441DA000B4293 /* SnackbarTestUITests.swift */,
+				265D01D5242441DA000B4293 /* Info.plist */,
+			);
+			path = SnackbarTestUITests;
+			sourceTree = "<group>";
+		};
+		3D4E8E29F47FEEDD785ECF99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B41B922846999D8DCD6FED1 /* Pods-SnackbarTest.debug.xcconfig */,
+				76AF2C97FA60C24B978FA32D /* Pods-SnackbarTest.release.xcconfig */,
+				92EEC3B9D3937072BAAF6DA4 /* Pods-SnackbarTestTests.debug.xcconfig */,
+				F35AF9D448A2D95E41E8EF67 /* Pods-SnackbarTestTests.release.xcconfig */,
+				0D74750718FE5C048ACCF91E /* Pods-SnackbarTestUITests.debug.xcconfig */,
+				BAD83C3A3B00AA3583DE0973 /* Pods-SnackbarTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CF47183F0D87B51649C4179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7108A5495FBCAA9DF8360B10 /* Pods_SnackbarTest.framework */,
+				214B72F13F91F46BABEE8503 /* Pods_SnackbarTestTests.framework */,
+				9905DC07A4FDE7A6C098F06A /* Pods_SnackbarTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265D01AD242441D9000B4293 /* SnackbarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265D01D8242441DA000B4293 /* Build configuration list for PBXNativeTarget "SnackbarTest" */;
+			buildPhases = (
+				583C8B3FF23E8B4AA1830822 /* [CP] Check Pods Manifest.lock */,
+				265D01AA242441D9000B4293 /* Sources */,
+				265D01AB242441D9000B4293 /* Frameworks */,
+				265D01AC242441D9000B4293 /* Resources */,
+				44B560A79FF6CB256CEB89AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackbarTest;
+			productName = SnackbarTest;
+			productReference = 265D01AE242441D9000B4293 /* SnackbarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		265D01C3242441DA000B4293 /* SnackbarTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265D01DB242441DA000B4293 /* Build configuration list for PBXNativeTarget "SnackbarTestTests" */;
+			buildPhases = (
+				9A3658DD9E5FBA3D7F533793 /* [CP] Check Pods Manifest.lock */,
+				265D01C0242441DA000B4293 /* Sources */,
+				265D01C1242441DA000B4293 /* Frameworks */,
+				265D01C2242441DA000B4293 /* Resources */,
+				E7E0D9D1285CC8A23162EC6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265D01C6242441DA000B4293 /* PBXTargetDependency */,
+			);
+			name = SnackbarTestTests;
+			productName = SnackbarTestTests;
+			productReference = 265D01C4242441DA000B4293 /* SnackbarTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		265D01CE242441DA000B4293 /* SnackbarTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265D01DE242441DA000B4293 /* Build configuration list for PBXNativeTarget "SnackbarTestUITests" */;
+			buildPhases = (
+				D7AAF99687DA6E61E4BDE10F /* [CP] Check Pods Manifest.lock */,
+				265D01CB242441DA000B4293 /* Sources */,
+				265D01CC242441DA000B4293 /* Frameworks */,
+				265D01CD242441DA000B4293 /* Resources */,
+				E3A050B469EED9A474B13C28 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265D01D1242441DA000B4293 /* PBXTargetDependency */,
+			);
+			name = SnackbarTestUITests;
+			productName = SnackbarTestUITests;
+			productReference = 265D01CF242441DA000B4293 /* SnackbarTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265D01A6242441D9000B4293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Adam Jack";
+				TargetAttributes = {
+					265D01AD242441D9000B4293 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					265D01C3242441DA000B4293 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 265D01AD242441D9000B4293;
+					};
+					265D01CE242441DA000B4293 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 265D01AD242441D9000B4293;
+					};
+				};
+			};
+			buildConfigurationList = 265D01A9242441D9000B4293 /* Build configuration list for PBXProject "SnackbarTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265D01A5242441D9000B4293;
+			productRefGroup = 265D01AF242441D9000B4293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265D01AD242441D9000B4293 /* SnackbarTest */,
+				265D01C3242441DA000B4293 /* SnackbarTestTests */,
+				265D01CE242441DA000B4293 /* SnackbarTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265D01AC242441D9000B4293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265D01BE242441DA000B4293 /* LaunchScreen.storyboard in Resources */,
+				265D01BB242441DA000B4293 /* Assets.xcassets in Resources */,
+				265D01B9242441D9000B4293 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265D01C2242441DA000B4293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265D01CD242441DA000B4293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44B560A79FF6CB256CEB89AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackbarTest/Pods-SnackbarTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackbarTest/Pods-SnackbarTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnackbarTest/Pods-SnackbarTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		583C8B3FF23E8B4AA1830822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnackbarTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3658DD9E5FBA3D7F533793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnackbarTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7AAF99687DA6E61E4BDE10F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnackbarTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A050B469EED9A474B13C28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackbarTestUITests/Pods-SnackbarTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackbarTestUITests/Pods-SnackbarTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnackbarTestUITests/Pods-SnackbarTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E0D9D1285CC8A23162EC6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackbarTestTests/Pods-SnackbarTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackbarTestTests/Pods-SnackbarTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnackbarTestTests/Pods-SnackbarTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265D01AA242441D9000B4293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265D01B6242441D9000B4293 /* ViewController.swift in Sources */,
+				265D01B2242441D9000B4293 /* AppDelegate.swift in Sources */,
+				265D01B4242441D9000B4293 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265D01C0242441DA000B4293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265D01C9242441DA000B4293 /* SnackbarTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265D01CB242441DA000B4293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265D01D4242441DA000B4293 /* SnackbarTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		265D01C6242441DA000B4293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265D01AD242441D9000B4293 /* SnackbarTest */;
+			targetProxy = 265D01C5242441DA000B4293 /* PBXContainerItemProxy */;
+		};
+		265D01D1242441DA000B4293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265D01AD242441D9000B4293 /* SnackbarTest */;
+			targetProxy = 265D01D0242441DA000B4293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		265D01B7242441D9000B4293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265D01B8242441D9000B4293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		265D01BC242441DA000B4293 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265D01BD242441DA000B4293 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265D01D6242441DA000B4293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		265D01D7242441DA000B4293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265D01D9242441DA000B4293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B41B922846999D8DCD6FED1 /* Pods-SnackbarTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBB97E9G59;
+				INFOPLIST_FILE = SnackbarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neukadye.SnackbarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		265D01DA242441DA000B4293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76AF2C97FA60C24B978FA32D /* Pods-SnackbarTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBB97E9G59;
+				INFOPLIST_FILE = SnackbarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neukadye.SnackbarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		265D01DC242441DA000B4293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EEC3B9D3937072BAAF6DA4 /* Pods-SnackbarTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBB97E9G59;
+				INFOPLIST_FILE = SnackbarTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neukadye.SnackbarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackbarTest.app/SnackbarTest";
+			};
+			name = Debug;
+		};
+		265D01DD242441DA000B4293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35AF9D448A2D95E41E8EF67 /* Pods-SnackbarTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBB97E9G59;
+				INFOPLIST_FILE = SnackbarTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neukadye.SnackbarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackbarTest.app/SnackbarTest";
+			};
+			name = Release;
+		};
+		265D01DF242441DA000B4293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D74750718FE5C048ACCF91E /* Pods-SnackbarTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBB97E9G59;
+				INFOPLIST_FILE = SnackbarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neukadye.SnackbarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnackbarTest;
+			};
+			name = Debug;
+		};
+		265D01E0242441DA000B4293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD83C3A3B00AA3583DE0973 /* Pods-SnackbarTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBB97E9G59;
+				INFOPLIST_FILE = SnackbarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neukadye.SnackbarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnackbarTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265D01A9242441D9000B4293 /* Build configuration list for PBXProject "SnackbarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265D01D6242441DA000B4293 /* Debug */,
+				265D01D7242441DA000B4293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265D01D8242441DA000B4293 /* Build configuration list for PBXNativeTarget "SnackbarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265D01D9242441DA000B4293 /* Debug */,
+				265D01DA242441DA000B4293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265D01DB242441DA000B4293 /* Build configuration list for PBXNativeTarget "SnackbarTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265D01DC242441DA000B4293 /* Debug */,
+				265D01DD242441DA000B4293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265D01DE242441DA000B4293 /* Build configuration list for PBXNativeTarget "SnackbarTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265D01DF242441DA000B4293 /* Debug */,
+				265D01E0242441DA000B4293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265D01A6242441D9000B4293 /* Project object */;
+}
